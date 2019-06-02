@@ -1,5 +1,5 @@
 export class CustomerDto {
-  name: string;
-  profession: string;
-  company: string
+  readonly name: string;
+  readonly profession: string;
+  readonly company: string
 }

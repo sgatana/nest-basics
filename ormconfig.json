@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5432",
+  "username": "gatana",
+  "password": "",
+  "database": "nest_js",
+  "logging": true,
+  "synchronize": true,
+  "entities": ["src/**/*.entity{.ts,.js}"]
+}
