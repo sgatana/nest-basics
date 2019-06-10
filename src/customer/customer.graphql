@@ -1,0 +1,9 @@
+type Customer {
+  id: String
+  name: String
+  profession: String
+}
+
+type Query {
+  customers: [Customer!]
+}
